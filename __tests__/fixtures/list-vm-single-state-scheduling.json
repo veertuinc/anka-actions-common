@@ -1,0 +1,18 @@
+{
+  "status": "OK",
+  "message": "",
+  "body": {
+    "instance_id": "7b3421d9-764c-481c-5e74-8cbd741d3930",
+    "instance_state": "Scheduling",
+    "anka_registry": "https://19.188.188.108:8089",
+    "vmid": "4c641deb-9822-4718-a757-5775799d9bc8",
+    "tag": "latest",
+    "inflight_reqid": "3b6435cb-37d1-4401-7dcd-b78cf181917d",
+    "ts": "2022-10-26T09:02:44.646756913Z",
+    "cr_time": "2022-10-26T09:02:44.646758236Z",
+    "progress": 0,
+    "external_id": "f3015250-99fb-415b-a8ee-5c16f3e58514",
+    "arch": "arm64",
+    "vlan": ""
+  }
+}
