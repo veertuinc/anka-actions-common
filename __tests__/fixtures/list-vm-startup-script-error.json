@@ -1,0 +1,41 @@
+{
+  "status": "OK",
+  "message": "",
+  "body": {
+    "instance_id": "7b3421d9-764c-481c-5e74-8cbd741d3930",
+    "instance_state": "Error",
+    "message": "startup script exit code 127",
+    "anka_registry": "https://18.198.188.108:8089",
+    "vmid": "4c641deb-9822-4718-a757-5775799d9bc8",
+    "tag": "latest",
+    "vminfo": {
+      "uuid": "2971ce7d-4c76-49eb-8e58-0c75dddd8af3",
+      "name": "mgmtManaged-monterey-1666774975892452000",
+      "cpu_cores": 2,
+      "ram": "8G",
+      "status": "running",
+      "node_id": "f9673afe-dc07-4683-b625-2bbf9f35f566",
+      "host_ip": "192.168.1.28",
+      "ip": "192.168.64.3",
+      "vnc_port": 0,
+      "vnc_connection_string": "vnc://:@192.168.1.28:0",
+      "creation_date": "2022-10-11T10:12:05Z",
+      "stop_date": "0001-01-01T00:00:00Z",
+      "version": ""
+    },
+    "node_id": "f9673afe-dc07-4683-b625-2bbf9f35f566",
+    "inflight_reqid": "3b6435cb-37d1-4401-7dcd-b78cf181917d",
+    "ts": "2022-10-26T09:03:24.141596234Z",
+    "cr_time": "2022-10-26T09:02:44.646758236Z",
+    "progress": 1,
+    "external_id": "f3015250-99fb-415b-a8ee-5c16f3e58514",
+    "arch": "arm64",
+    "vlan": "",
+    "startup_script": {
+      "return_code": 127,
+      "did_timeout": false,
+      "stdout": "",
+      "stderr": "sh: line 1: asdadfasdflakdsmnflaksdnfaklsdnf!@#$: command not found\n"
+    }
+  }
+}
