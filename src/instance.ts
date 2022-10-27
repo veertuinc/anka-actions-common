@@ -172,9 +172,7 @@ export class VM {
         '/api/v1/vm',
         reqBody
       )
-      logDebug(
-        `StartVMResponse status: ${response.status}; body: ${response.data.body}`
-      )
+      logDebug(`StartVMResponse ${JSON.stringify(response.data)}`)
 
       if (response.data.status !== API_STATUS_OK) {
         throw new Error(`API response status:${response.data.status}`)
