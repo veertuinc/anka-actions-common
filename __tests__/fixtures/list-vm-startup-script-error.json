@@ -5,7 +5,7 @@
     "instance_id": "7b3421d9-764c-481c-5e74-8cbd741d3930",
     "instance_state": "Error",
     "message": "startup script exit code 127",
-    "anka_registry": "https://18.198.188.108:8089",
+    "anka_registry": "https://19.188.188.108:8089",
     "vmid": "4c641deb-9822-4718-a757-5775799d9bc8",
     "tag": "latest",
     "vminfo": {
