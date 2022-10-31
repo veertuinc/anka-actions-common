@@ -218,7 +218,7 @@ export class VM {
           errorMsg = `${errorMsg}: ${response.data.body.startup_script.stderr}`
         }
 
-        throw new Error(errorMsg)
+        throw new Error(errorMsg.trim())
       }
 
       return response.data.body.instance_state
