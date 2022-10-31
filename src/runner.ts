@@ -5,8 +5,8 @@ export class Runner {
   private owner: string
   private repo: string
 
-  constructor(auth: string, owner: string, repo: string) {
-    this.octokit = new Octokit({auth})
+  constructor(octokit: Octokit, owner: string, repo: string) {
+    this.octokit = octokit
     this.owner = owner
     this.repo = repo
   }
