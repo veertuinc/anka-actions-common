@@ -11,7 +11,7 @@ export class Runner {
     this.repo = repo
   }
 
-  async getRunnerByActionId(actionId: string): Promise<number | null> {
+  async getRunnerByName(name: string): Promise<number | null> {
     const runnerListResp =
       await this.octokit.actions.listSelfHostedRunnersForRepo({
         owner: this.owner,
@@ -19,7 +19,7 @@ export class Runner {
       })
 
     const found = runnerListResp.data.runners.filter(
-      runner => runner.name === actionId
+      runner => runner.name === name
     )
 
     if (found.length) {

@@ -4,7 +4,7 @@ export declare class Runner {
     private owner;
     private repo;
     constructor(octokit: Octokit, owner: string, repo: string);
-    getRunnerByActionId(actionId: string): Promise<number | null>;
+    getRunnerByName(name: string): Promise<number | null>;
     createToken(): Promise<string>;
     delete(runnerId: number): Promise<void>;
 }
