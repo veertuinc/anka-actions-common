@@ -39,7 +39,7 @@ test('create token', async () => {
   expect(await runner.createToken()).toEqual('token')
 })
 
-test('get runner by action id', async () => {
+test('get runner by name', async () => {
   const mock = {
     actions: {
       listSelfHostedRunnersForRepo: (
